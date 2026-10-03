@@ -20,6 +20,7 @@
             --radio: 28px;
 
             --verde: rgb(11, 194, 57);
+            --azul:  rgb(29, 32, 212);
 
         }
 
@@ -209,10 +210,11 @@
         }
         .hero-description {
             max-width: 470px;
-            color: var(--gris);
-            font-size: 14px;
+            color: var(--negro);
+            font-size: 16px;
             line-height: 1.9;
             margin-bottom: 30px;
+            font-family: "Cormorant Garamond", Georgia, serif;
         }
 
         /* ====  BOTONES ==== */
@@ -262,7 +264,7 @@
         }
         .hero-glow {
             position: absolute;
-            width: 430px;
+            width: 4300px;
             height: 430px;
             border-radius: 50%;
             background: radial-gradient(circle, rgba(216,208,223,.65), rgba(216,208,223,0) 70%);
@@ -354,11 +356,33 @@
             max-width: 600px;
             margin: 15px auto 0;
             color: var(--gris);
-            font-size: 13px;
+            font-size: 16px;
             line-height: 1.8;
         }
 
+    /* ==== SELLO SIN.T.A.C ==== */
 
+        .sintac-badge {
+            position: absolute;
+            top: 6%;
+            right: -3%;
+            width: 87px;
+            aspect-ratio: 1 / 1;
+            border-radius: 50%;
+            background-image: url("img/Sello\ sin\ T.A.C.C.png");
+            background-size: cover;
+            background-position: center;
+            background-repeat: no-repeat;
+            border: 2px solid rgba(170,160,184,.65);
+            box-shadow: 0 8px 22px rgba(70,60,75,.18);
+            transform: rotate(4deg);
+            z-index: 5;
+            pointer-events: none;
+            user-select: none;
+            -webkit-user-select: none;
+            -webkit-user-drag: none;
+            transition: transform .3s ease;
+        }
         /* ==== PRODUCTO ==== */
 
         .product-area {
@@ -427,7 +451,7 @@
         .product-card p {
             text-align:  center;
             color: var(--gris);
-            font-size: 13px;
+            font-size: 16px;
             line-height: 1.8;
             max-width: 450px;
             margin: 0 auto 25px;
@@ -469,7 +493,7 @@
             margin-bottom: 9px;
         }
         .benefit p {
-            font-size: 11px;
+            font-size: 16px;
             line-height:  1.7;
             color:  var(--gris);
         }
@@ -511,7 +535,7 @@
         }
         .step p {
             color: var(--gris);
-            font-size: 10px;
+            font-size: 16px;
             line-height: 1.65;
         }
 
@@ -523,11 +547,7 @@
             padding: 65px 35px;
             text-align: center;
             border-radius: 35px;
-            background: linear-gradient(
-                    135deg,
-                    #eee8f0,
-                    #fffaf0
-                );
+            background: linear-gradient(135deg, #eee8f0, #fffaf0);
             border: 1px solid rgba(170,160,184,.35);
             box-shadow: var(--sombra);
         }
@@ -558,10 +578,7 @@
         }
 
         .order-box h2 {
-            font-family:
-                "Cormorant Garamond",
-                Georgia,
-                serif;
+            font-family: "Cormorant Garamond", Georgia, serif;
             font-size: clamp(42px, 6vw, 62px);
             color:  var(--lavanda);
             margin-bottom: 12px;
@@ -571,7 +588,7 @@
             max-width: 530px;
             margin: 0 auto 25px;
             color: var(--gris);
-            font-size: 13px;
+            font-size: 15px;
             line-height: 1.8;
         }
 
@@ -604,9 +621,11 @@
         }
 
         .social-text {
-            color: var(--gris);
-            font-size: 12px;
             margin-bottom: 14px;
+            text-align: center;
+            font-family: "Cormorant Garamond", Georgia, serif;
+            font-size: 36px;
+            color: var(--lavanda);
         }
 
         .instagram-button {
@@ -615,9 +634,9 @@
             justify-content: center;
             padding: 10px 23px;
             border-radius: 50px;
-            background: rgba(255,255,255,.55);
-            border: 1px solid rgba(170,160,184,.3);
-            color: var(--lavanda);
+            background: rgba(255, 255, 255, 0.55);
+            border: 1px solid rgba(160, 163, 184, 0.3);
+            color: var(--azul);
             font-size: 11px;
             font-weight: 600;
             transition: .3s ease;
