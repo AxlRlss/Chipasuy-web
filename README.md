@@ -39,4 +39,6 @@ CHIPASUY/
 │
 └── img/
     ├── ico-chipasuy.ico
+    ├──chipanguisuy.png
+    ├──Sello sin T.A.C.C.png
     └── logo-chipasuy.png
