@@ -32,13 +32,13 @@ El sitio funciona como un escaparate digital de la marca, presentando el product
 ## ✦ Estructura
 
 ```text
-CHIPASUY/
+CHIPASUYWEB/
 │
 ├── index.html
 ├── Styles.css
+├── README.md
 │
 └── img/
+    ├── Sello sin T.A.C.C.png
     ├── ico-chipasuy.ico
-    ├──chipanguisuy.png
-    ├──Sello sin T.A.C.C.png
     └── logo-chipasuy.png
