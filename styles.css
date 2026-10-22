@@ -116,6 +116,7 @@
             .price-card .btn {max-width: 320px; margin-inline: auto; font-size: 11px;}
             .delivery-note {gap: 9px; padding: 16px 12px;}
             .delivery-note strong { font-size: 21px;}
+            .feature-item {display: grid; grid-template-columns: 28px auto; gap: 10px;}
         }
 
         /* ⟐ BENEFICIOS ⟐ */
