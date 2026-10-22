@@ -461,6 +461,113 @@
             justify-content:  center;
         }
 
+        /* ==== PRECIOS Y PRESENTACIÓN DE PEDIDOS ==== */
+        
+        .pricing-area {
+            grid-template-columns: repeat(3, minmax(0, 1fr));
+            align-items: stretch;
+        }
+        
+        .price-card {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            text-align: center;
+            padding: 28px 20px;
+        }
+        
+        .price-card .product-label {
+            margin-bottom: 20px;
+        }
+        
+        .price-card .product-icon {
+            flex-shrink: 0;
+            margin-bottom: 18px;
+        }
+        
+        .price-card h3 { margin-bottom: 8px;}
+        
+        .price-amount {
+            color: var(--negro) !important;
+            font-family: "Cormorant Garamond", Georgia, serif;
+            font-size: 38px !important;
+            font-weight: 600;
+            line-height: 1.15 !important;
+            margin: 0 0 8px !important;
+        }
+        
+        .price-card .price-detail {
+            flex-grow: 1;
+            margin-bottom: 24px;
+        }
+        
+        .price-card .product-action {
+            width: 100%;
+            margin-top: auto;
+        }
+        
+        .price-card .btn {
+            width: 100%;
+            padding: 0 14px;
+            font-size: 11px;
+        }
+        
+        .featured-price {
+            background: linear-gradient(160deg, #f1eaf5, #fffaf0);
+            border-color: rgba(170, 160, 184, 0.65);
+            box-shadow: 0 20px 45px rgba(100, 80, 115, 0.15);
+        }
+        
+        .delivery-note {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 14px;
+            margin: 26px auto 0;
+            padding: 17px 22px;
+            max-width: 650px;
+            border: 1px solid rgba(170, 160, 184, 0.3);
+            border-radius: 22px;
+            background: rgba(255, 255, 255, 0.48);
+            text-align: center;
+        }
+        
+        .delivery-note p {
+            color: var(--gris);
+            font-size: 12px;
+            line-height: 1.8;
+        }
+        
+        .delivery-note strong {
+            display: block;
+            color: var(--lavanda);
+            font-family: "Cormorant Garamond", Georgia, serif;
+            font-size: 23px;
+            font-weight: 600;
+        }
+        
+        .delivery-symbol {
+            color: var(--dorado);
+            font-size: 20px;
+            flex-shrink: 0;
+        }
+        
+        /*==== Tablets ====*/
+        @media (max-width: 850px) {
+            .pricing-area {grid-template-columns: repeat(2, minmax(0, 1fr));}
+            .featured-price { grid-column: 1 / -1;}
+            .featured-price .product-action { max-width: 350px;}
+        }
+        
+        /* ==== Celulares ==== */
+        @media (max-width: 600px) {
+            .pricing-area {grid-template-columns: 1fr;}
+            .featured-price {grid-column: auto;}
+            .price-card {padding: 28px 22px;}
+            .price-amount {font-size: 36px !important;}
+            .delivery-note {gap: 9px; padding: 16px 12px;}
+            .delivery-note strong {font-size: 21px;}
+        }
 
         /* ==== BENEFICIOS  ===== */
 
