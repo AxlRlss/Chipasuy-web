@@ -52,16 +52,6 @@
         .hero-image-frame {width: min(460px, 100%); aspect-ratio: 1 / 1; padding:  0; border-radius: 50%;  background-image:  url("img/logo-chipasuy.png"); background-size: cover;  background-position: center; background-repeat: no-repeat; border: 1px solid rgba(170,160,184,.5); box-shadow: 0 25px 70px rgba(90,75,95,.14); position: relative; user-select: none; -webkit-user-select: none; -webkit-user-drag: none; pointer-events: none;}
         
         /* ⟐ FRASE DECORATIVA ⟐ */
-.features-list {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-}
-
-.features-list p {
-    width: fit-content;
-    text-align: left;
-}
         .floating-note {position: absolute; bottom: 25px; left: -30px; padding: 12px 18px; background: rgba(255,255,255,.82);  border: 1px solid rgba(170,160,184,.25); border-radius: 50px; box-shadow: 0 12px 30px rgba(60,50,65,.08); font-family: "Cormorant Garamond", serif; font-size: 17px; font-style: italic; color: var(--lavanda); transform: rotate(-4deg);}
 
         /* ⟐ DIVISOR ⟐ */
