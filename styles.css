@@ -35,7 +35,7 @@
         .hero h1 {font-family:  "Cormorant Garamond", Georgia, serif; font-size: clamp(65px, 9vw, 115px); line-height: .75; font-weight: 600; letter-spacing: -0.045em; color: var(--lavanda); margin-bottom: 24px;}
         .hero-subtitle {font-family: "Cormorant Garamond", Georgia, serif; font-size: clamp(26px, 3vw, 38px); line-height: 1; color: var(--negro); margin-bottom: 20px;}
         .hero-description {max-width: 470px; color: var(--negro); font-size: 16px;  line-height: 1.9; margin-bottom: 30px; font-family: "Cormorant Garamond", Georgia, serif;}
-.feature-item {display: grid; grid-template-columns: 28px auto; gap: 10px;}
+
         /* ⟐  BOTONES ⟐ */
         .button-row {display: flex; flex-wrap: wrap; gap: 12px;}
         .btn {display: inline-flex; align-items: center; justify-content: center; min-height: 50px; padding: 0 24px;  border-radius: 50px;  font-size: 12px; font-weight: 700; letter-spacing: .04em; transition: transform .3s ease, box-shadow .3s ease, background .3s ease;}
