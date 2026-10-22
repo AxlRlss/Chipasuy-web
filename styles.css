@@ -464,9 +464,12 @@
         /* ==== PRECIOS Y PRESENTACIÓN DE PEDIDOS ==== */
         
         .pricing-area {
-            grid-template-columns: repeat(3, minmax(0, 1fr));
-            align-items: stretch;
-        }
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 24px;
+    align-items: stretch;
+    margin-bottom: 30px;
+}
         
         .price-card {
             display: flex;
