@@ -2,13 +2,13 @@
 Sitio web oficial de Chipasuy, emprendimiento artesanal de chipa casero. Landing page responsive desarrollada con HTML y CSS, orientada a presentación de marca y pedidos directos por WhatsApp.
 # Chipasuy
 
-## ✦ Sobre el proyecto
+## ⟐  Sobre el proyecto
 
 Chipasuy nace como una propuesta gastronómica pequeña, artesanal y cercana, donde la identidad visual busca transmitir calidez, delicadeza y un carácter propio.
 
 El sitio funciona como un escaparate digital de la marca, presentando el producto y facilitando el contacto directo con el emprendimiento.
 
-## ✦ Características
+## ⟐  Características
 
 - Diseño responsive para dispositivos móviles, tablets y escritorio.
 - Identidad visual basada en la estética original de Chipasuy.
@@ -23,13 +23,13 @@ El sitio funciona como un escaparate digital de la marca, presentando el product
 - Sin carrito de compras.
 - Estructura liviana y de fácil mantenimiento.
 
-## ✦ Tecnologías
+## ⟐ Tecnologías
 
 - HTML5
 - CSS3
 - JavaScript
 
-## ✦ Estructura
+## ⟐ Estructura
 
 ```text
 CHIPASUYWEB/
